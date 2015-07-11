@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="com.kiwi.cabaggregator.MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+    <Button
+        android:id="@+id/GetCabs"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:gravity="top|center_horizontal"
+        android:text="GET CABS"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+</LinearLayout>
